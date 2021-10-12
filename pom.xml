@@ -56,7 +56,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>demo</finalName>
+		<finalName>demo-jenkin</finalName>
 	</build>
 
 </project>

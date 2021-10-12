@@ -1,5 +1,5 @@
-FROM openjdk:11
-EXPOSE 8080
-ADD target/demo.jar demo.jar
-ENTRYPOINT ["java", "-jar", "/demo.jar"]
+FROM openjdk:8
+EXPOSE 8099
+ADD target/demo-jenkin.jar demo-jenkin.jar
+ENTRYPOINT ["java", "-jar", "/demo-jenkin.jar"]
 
